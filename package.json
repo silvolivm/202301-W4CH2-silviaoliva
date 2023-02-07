@@ -19,11 +19,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start": "tsc -w",
-    "test": "jest --watchAll --coverage",
-    "test:prod": "jest --watchAll --coverage --watchAll=false"
+    "test": "react-scripts test --coverage",
+    "test:prod": "react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
